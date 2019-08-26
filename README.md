@@ -2,7 +2,7 @@
 Enables a Frysky receiver SBUS connection to control an Arduino - e.g. Lights, PPM servos, sensors
 
 <br>
-To get the sketch working you'll first need to convert the inverted SBUS signal to an non-inveted signal such as using a FTDI converter and configured that to invert the signals which will actually invert them back to a non-inverted signal. You can also do that with an inverter or transistors, see the video and webpages below. 
+To get the sketch working you'll first need to convert the inverted SBUS signal to an non-inveted signal,  e.g. by using a FTDI converter. You'll need to configured the FTDO to invert the signals which will actually invert them back to a non-inverted signal. You can also do that with an inverter chip or transistors, see the video and webpages below. 
 <Br>
 https://www.youtube.com/watch?v=UAR65jER6WY
  Also see the webpage: 
