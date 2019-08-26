@@ -16,7 +16,7 @@ Using a simple transistor+2 resistors to invert the signal http://blog.oscarlian
  <li>
 If you have an FTDI USB to TLL serial converter there is a program  (called FT_Prog http://www.ftdichip.com/Support/Utilities/FT_Prog_v3.0.60.276%20Installer.zip) on the ftdiChip.com webpage which allows you to configure signal inversions automatically. See this website for examples of how to connect up and make a cable http://clipvideo.ga/video/_-EouL2nNgE/how-to-make-an-frsky-programming-cable.html....or...
 <li>
-If you have an X4R you can very easily hack the receiver's PCB to obtain non-inverted data directly; without the need to invert the signal by fixing a connector to available position show below. I just added a header pin connectors directly to the inverter pin and works like a dream! 
+Easiest method is if you have an X4R you can very easily hack the receiver's PCB to obtain non-inverted data directly; without the need to invert the signal by fixing a connector to available position show below. I just added a header pin connector directly to the inverter pin and it works like a dream! 
  http://www.robotmaker.eu/ROBOTmaker/quadcopter-3d-proximity-sensing/sbus-graphical-representation
 </li>
 <br>
