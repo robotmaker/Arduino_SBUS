@@ -1,7 +1,7 @@
 # Arduino_SBUS
-REad the WIKI to understand a bit more about how this works. 
+Read the WIKI to understand a bit more about how all this works. 
 
-As a summary, this sketch enables a Frysky receiver SBUS connection to control an Arduino, to give you full 16 channels to activate extra cool devices on your radio controlled model, such as Lights, PPM servos, sensors, parachute,etc....the skys the limit :-)
+As a summary, this sketch enables a Frysky receiver SBUS connection to control pins on an Arduino, i.e. to expand your RC receiver and give you full 16 channels to activate extra cool devices on your radio controlled model, such as Lights, PPM servos, sensors, parachute,etc....the skys the limit :-)
 
 <br>
 To get the sketch working you'll first need to convert the inverted SBUS signal to an non-inveted signal as the arduino doesn't (at the time of writing this code) have the ability to invert it via code. For testing purposes you can just use a FTDI converter. To use on of these you'll first need to configured the FTDI to invert the invertd signal back to a non-invered signal (confused? don't worry! just hang on here for a while). For a permanent solution, there are soem dedicated "inverter chips" that do that for you or just use a couple of  transistors and resistors, or you can do a simple hack on your receiver to tap directly into the non-inverted SBUS signal that's already on the reciever itself (duh- why don't the manufacturers just prodvide this as an output option?). See the video and webpages below, which explain all these methods to invert the SBUS signal. 
@@ -27,9 +27,9 @@ Any of the Channels can of course be used trigger any of the pins on the Arduino
 <br>
 Channels used in the demo are 5,6,7. Mapped these to the sliders on the transmitter to change RGB LED values
 <li>
-            //Channel 1 set to trigger the Internal Arduino LED on pin 13 once the threshold exceeds 1500
+Channel 1 set to trigger the Internal Arduino LED on pin 13 once the threshold exceeds 1500
 <li>
-            //Channel 10 needs to be mapped to one of the switches on the Taranis which triggers a buzzer on pin 10 of the Arduino 
+Channel 10 needs to be mapped to one of the switches on the Taranis which triggers a buzzer on pin 10 of the Arduino 
 <li>
-            //Channel 1 also triggers a servo connected to pin 8 on the Arduino. So moving the throttle will also move the servo according
+ Channel 1 also triggers a servo connected to pin 8 on the Arduino. So moving the throttle will also move the servo according
  </li>
