@@ -33,3 +33,7 @@ Channel 10 needs to be mapped to one of the switches on the Taranis which trigge
 <li>
  Channel 1 also triggers a servo connected to pin 8 on the Arduino. So moving the throttle will also move the servo according
  </li>
+ <br>
+ Have fun :-)
+ <br>
+ Colin Bacon
