@@ -22,4 +22,14 @@ The easiest method is if you have an X4R you can do a very simple "hack" of the 
  http://www.robotmaker.eu/ROBOTmaker/quadcopter-3d-proximity-sensing/sbus-graphical-representation
 </li>
 <br>
-
+For this demo, the corresponding channels mapped below need to be also configured on the FrSky Taranis tranmitter accordingly.
+Any of the Channels can of course be used trigger any of the pins on the Arduino. But this is just a Proof of Concept
+<br>
+Channels used in the demo are 5,6,7. Mapped these to the sliders on the transmitter to change RGB LED values
+<li>
+            //Channel 1 set to trigger the Internal Arduino LED on pin 13 once the threshold exceeds 1500
+<li>
+            //Channel 10 needs to be mapped to one of the switches on the Taranis which triggers a buzzer on pin 10 of the Arduino 
+<li>
+            //Channel 1 also triggers a servo connected to pin 8 on the Arduino. So moving the throttle will also move the servo according
+ </li>
