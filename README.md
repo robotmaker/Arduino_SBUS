@@ -1,5 +1,7 @@
 # Arduino_SBUS
-Enables a Frysky receiver SBUS connection to control an Arduino, to give you full 16 channels to activate extra cool devices on your radio controlled model, such as Lights, PPM servos, sensors, parachute,etc....the skys the limit :-)
+REad the WIKI to understand a bit more about how this works. 
+
+As a summary, this sketch enables a Frysky receiver SBUS connection to control an Arduino, to give you full 16 channels to activate extra cool devices on your radio controlled model, such as Lights, PPM servos, sensors, parachute,etc....the skys the limit :-)
 
 <br>
 To get the sketch working you'll first need to convert the inverted SBUS signal to an non-inveted signal as the arduino doesn't (at the time of writing this code) have the ability to invert it via code. For testing purposes you can just use a FTDI converter. To use on of these you'll first need to configured the FTDI to invert the invertd signal back to a non-invered signal (confused? don't worry! just hang on here for a while). For a permanent solution, there are soem dedicated "inverter chips" that do that for you or just use a couple of  transistors and resistors, or you can do a simple hack on your receiver to tap directly into the non-inverted SBUS signal that's already on the reciever itself (duh- why don't the manufacturers just prodvide this as an output option?). See the video and webpages below, which explain all these methods to invert the SBUS signal. 
